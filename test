@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as pd
+## set the connection to the db
+import sqlalchemy
+import pymysql
+from IPython.display import Image
+
+example_df = pd.read_csv('Data/finalapi.csv')
+example_df.head(6)
+
